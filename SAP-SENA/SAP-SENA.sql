@@ -41,7 +41,7 @@ porcentaje_asistencia DECIMAL(10,2) NOT NULL,
 fecha_calculo DATE NOT NULL,
 id_aprendiz INT NOT NULL,
 
-CONSTRAINT fk_aprendices_indicadores_riesgo FOREIGN KEY (id_aprendz) REFERENCES aprendices(id_aprendiz)
+CONSTRAINT fk_aprendices_indicadores_riesgo FOREIGN KEY (id_aprendiz) REFERENCES aprendices(id_aprendiz)
 );
 
 CREATE TABLE IF NOT EXISTS alertas(
